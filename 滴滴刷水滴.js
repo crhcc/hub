@@ -19,8 +19,8 @@ header里的 D-Header-T
 const $ = new Env('弟弟果园刷水滴');
 
 //ck放这里
-let wsgsig = `` //url里的 wsgsig
-let HeaderT = ``//任意请求的header
+let wsgsig = `dd03-mNY3eoWM6WNpWjrpQxUtKuz1%2BGoOsGdlP2lp64y8%2BGoPXCqxvx5uIQnN7mNPXjPnpZhmJutI7gDQhWVRQMOwIJs57WzYWWT%2FzHPRI3XHJGzwiDUtyxqYH%2By57c1` //url里的 wsgsig
+let HeaderT = `vaLIN4VNadYxci9Ej94Vxl2xRfLfLZF3C0tsOo2ajzUkzDnKw0AMgNG7fLUw0izySLf5F2dpJpCQyvjugbh63duZSlIXXRRhGmnCLGTtqiHMStrao6r7iDGiC7ORKsxOgvBz8kuWCPW1rxpqo7rw_-02cuf1eD__NrKrahzChTRvHqW5mnAlsWo9qjUrjnA72zupxycAAP__`//任意请求的header
 
 let sbody = ``//goal里的body
 let lqbody = ``//award的body
