@@ -15,7 +15,7 @@ from Crypto.Util.Padding import pad
 
 # 手机号
 config_list = [
-   {"mobile": "", "food": True}
+   {"mobile": "19359263880", "food": True}
 ]
 # 用户中心
 # 抓包url   https://wapside.189.cn:9001/jt-sign/api/home/homeInfo
