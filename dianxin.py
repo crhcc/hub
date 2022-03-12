@@ -20,7 +20,7 @@ config_list = [
 # 用户中心
 # 抓包url   https://wapside.189.cn:9001/jt-sign/api/home/homeInfo
 # home_info_body   {"para":"xx"}
-home_info_body = {}
+home_info_body = {adddafa659838820d66856a85de3865271cc8937e908c8403a6faece42506f5293033ac519ab3e907d70cf165baeb92d80924e819291d05b51159473ffdd61748be53281fef65f7c051fe1af3121f0df04dc6ac42e0f891448a72d272d0a994724ebcfa2fe22025739c3211a63f727dc9c194cc92d8a3f0c9b9a531798587b226d423314530c808c6ea9f7f07949e0b68c9e4234720934620e8d1eda482815a8029a694d09b87724c7f8c11755d0d7d5977058c23da6dc9aa43f503ede3a070e4327577a00c43d5dadedb0139345baa697ee3576610aca1fc87eb0d0cfbe374163b2bf60bb7299839e4dc660f31488aac73eeb5b86dd50fa094fe73d53d9e652}
 
 # 喂宠物
 # https://wapside.189.cn:9001/jt-sign/paradise/food
@@ -38,7 +38,7 @@ share_body = {}
 
 # 云盘
 # 'https://wapside.189.cn:9001/jt-sign/paradise/polymerize'
-# cloud_body = {"para":"xx"}
+# cloud_body = {"para":"549cb5840eab71774df409befd4ca296c56805f1ec1cebd1b15262e939997d6dd63b1c00a35fe2d8dc29ed9ff3fbffba81374b2d81022824edc49e8019f4ffc9559fec40d66fd55f7872fcb15fad710018ed6ffe9488809ba02f8fca533f5533c5e0b853f1ee46b4aef6c35f9072f509cc038ac792c4974c642348459d586389"}
 cloud_body = {}
 
 # 种树
