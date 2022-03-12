@@ -32,9 +32,12 @@ food_body = {"para": "2940ba869a3e41da6e90dfba55c632b733abaca0850187f7b87e11c23b
 # https://dxhd.189.cn:7081/actcenter/v1/goldcoinuser/shareToGetCoin.do
 # share_body = {
 #     'activityId': 'telecomrecommend01',
-#     'session': 'xxx'
+#     'session': '2022031213552771776fda366eba54e31bc6a363155a22409'
 # }
-share_body = {}
+share_body = {
+'activityId': 'telecomrecommend01',
+'session': 'xxx'
+}
 
 # 云盘
 # 'https://wapside.189.cn:9001/jt-sign/paradise/polymerize'
