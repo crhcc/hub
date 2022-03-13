@@ -15,17 +15,17 @@ from Crypto.Util.Padding import pad
 
 # 手机号
 config_list = [
-   {"mobile": "", "food": True}
+   {"mobile": "13159324621", "food": True}
 ]
 # 用户中心
 # 抓包url   https://wapside.189.cn:9001/jt-sign/api/home/homeInfo
 # home_info_body   {"para":"xx"}
-home_info_body = {}
+home_info_body = {"para": "851bde38747cfcdb4dfb62488a9fac9db62be5941a26ddf49a8de395728a122c6a00c3475a6c598d24f6308173a74fabb6546782035fd3f897897807d6164247fb26b00db979facad34b3ef357644cabcfc2757744c8a23337a0f174fa6a8db96f57f713d7fb9945978a6c7e15fe30b9bfc8eeea13754f7e544761fd5a4da729"}
 
 # 喂宠物
 # https://wapside.189.cn:9001/jt-sign/paradise/food
 # food_body   {"para":"xx"}
-food_body = {}
+food_body = {"para": "133b9a2783543065f07850e3361b55bca5f0019aa6bc4e6b5fc1a8c04c40d5d8dda3d629ee14750bf54404117624686451b61fe009081c7ce17ea1618b1e302df16f012183bf6157331f1363dbfd7bd1d8a87ec4007ccb9a93a6e22a958706b47cb2dd5ba75b1423f2b8a8c57600f65ae114686438c06989000c961967e1274e"}
 
 
 # 分享  
@@ -34,17 +34,20 @@ food_body = {}
 #     'activityId': 'telecomrecommend01',
 #     'session': 'xxx'
 # }
-share_body = {}
+share_body = {
+'activityId': 'telecomrecommend01',
+'session': '2022031213552771776fda366eba54e31bc6a363155a22409'
+}
 
 # 云盘
 # 'https://wapside.189.cn:9001/jt-sign/paradise/polymerize'
 # cloud_body = {"para":"xx"}
-cloud_body = {}
+cloud_body = {"para": "acb89a33795c0f78d3a27114ba574792df172644ff608edbffc954e3c7c3f8be632a88fd66656278204ce9b747d89e74798d95d7bab10d894e233c967200d497b8f016a760389f515959642d6789b8f06a72b23b7bc9c358749b6739b6ea887e5f71e3ecf7a584a95cae70768226eaf275383138d603a60a5a0cb37e988b93a741341cbc303c3c2b264566935d8b65d453d2393daf731f268da0c8ca9dd4ae1e148e0205f48d32dc85fc0c54fb901a4ddfc665658c32b1808de2f97ec8aaa31f80684c3d505ba469289499d109ddee00162796e9ea51b9307394f3c31366ffaae356ffe17570899c36f810ec6768180142e270120e8f86c7bcbf110d41831b18"}
 
 # 种树
 # 'https://wapside.189.cn:9001/jt-sign/paradise/polymerize'
 # tree_body = {"para":"xx"}
-tree_body = {}
+tree_body = {"para": "acb89a33795c0f78d3a27114ba574792df172644ff608edbffc954e3c7c3f8be632a88fd66656278204ce9b747d89e74798d95d7bab10d894e233c967200d497b8f016a760389f515959642d6789b8f06a72b23b7bc9c358749b6739b6ea887e5f71e3ecf7a584a95cae70768226eaf275383138d603a60a5a0cb37e988b93a741341cbc303c3c2b264566935d8b65d453d2393daf731f268da0c8ca9dd4ae1e148e0205f48d32dc85fc0c54fb901a4ddfc665658c32b1808de2f97ec8aaa31f80684c3d505ba469289499d109ddee00162796e9ea51b9307394f3c31366ffaae356ffe17570899c36f810ec6768180142e270120e8f86c7bcbf110d41831b18"}
 
 
 msg = []
