@@ -5,8 +5,6 @@
 
 扫码打开小程序 点击我的 获取ck  
 
-
-
 撸了不一定有，不撸肯定没有！
 TG频道 https://t.me/tom_ww     
 
@@ -78,9 +76,11 @@ $.message = ''
 
         await xyfsindex()
 
-        message()
+        
       }
+      await $.wait(500000)
     }
+    
   })()
 
   .catch((e) => $.logErr(e))
