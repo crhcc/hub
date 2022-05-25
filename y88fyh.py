@@ -11,7 +11,7 @@ from loguru import logger #:3
 corn 一天一次
 '''
 # 账号配置
-sessionkey_list =['sessionkey']# 多账号配置 ['session1','session2']
+sessionkey_list =['acw_tc=2760820016534908359235520e259ceffd1777cccffe1675b535f27d29ea7a;path=/;HttpOnly;Max-Age=1800']# 多账号配置 ['session1','session2']
 info ='''
 频道链接:https://t.me/maomaoalal  交流群:https://t.me/+5xDWXXg-Ug03ZGI1
 鸾凤玉华 小程序账号配置
