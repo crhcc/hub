@@ -19,7 +19,7 @@ echo $ts
 }
 xyhtxyqm(){
 rw="新用户填写邀请码"
-zx=$(curl -s -H "Cookie:$ck" "$url/inivite/fillcode?code=382826606")
+zx=$(curl -s -H "Cookie:$ck" "$url/inivite/fillcode?code=385526606")
 jg
 }
 xzydkwjl(){
